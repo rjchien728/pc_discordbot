@@ -12,13 +12,13 @@
 6. 如果看不懂這一段, 可以google一下terminal, 學一下基本操作
 
 
-##Discord設定
+## Discord設定
 ### - 新增Discord Bot
 1. 到 https://discordapp.com/developers/applications 登入你的discord帳號後 新增Application
 2. 建立好Application之後 到Bot 選擇Add Bot
 3. 在這頁可以設定Bot名稱和大頭貼
 
-###- 取得discord bot token
+### - 取得discord bot token
 4. 在Bot這頁 選擇Copy 複製Token
 5. 到 auth.json 裡面將Token換掉
 ```json
@@ -27,7 +27,7 @@
 }
 ```
 
-###- 將bot加到discord伺服器裡面
+### - 將bot加到discord伺服器裡面
 6. 到General Information 複製Client id
 7. https://discordapp.com/oauth2/authorize?&client_id=CLIENTID&scope=bot&permissions=8 將本網址中的CLIENTID取代成剛剛複製的ID
 8. 進入上面這個網址
@@ -35,7 +35,7 @@
 
 這段如果看不懂可以參考: https://www.digitaltrends.com/gaming/how-to-make-a-discord-bot/
 
-##Google Sheets設定
+## Google Sheets設定
 
 ### - 取得google sheets token
 1. https://developers.google.com/sheets/api/quickstart/nodejs#step_1_turn_on_the 按Enable the Google Sheets API 啟用google sheets api
@@ -77,7 +77,7 @@ const ssidlist = [
 - 也可以複製一頁當天的日期在公會戰開始之前先測試bot功能
 - p.s. 在清晨5點之前 bot會填在昨日 例如現在是4/25 01:00am 呼叫填表的時候bot會填在4/24那頁
 
-##執行須知
+## 執行須知
 
 ### - 最後的設定 快完成了!
 1. 決定discord可以呼叫bot的文字頻道
@@ -107,8 +107,8 @@ const chlist = {
 - 因為bot會根據系統時間來決定填入的表格
 - 如果使用雲端虛擬機的服務 記得調整好時間
 - 以GCP的linux為例
-> cd ~
-> sudo cp /usr/share/zoneinfo/Asia/Taipei /etc/localtime  
+- > cd ~
+- > sudo cp /usr/share/zoneinfo/Asia/Taipei /etc/localtime  
 
 - 不確定系統時間為何的可以使用`date`來確認
 
