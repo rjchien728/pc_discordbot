@@ -37,13 +37,13 @@
 
 ## Google Sheets設定
 
-### - 取得google sheets token
+### - 取得google sheets api token
 1. https://developers.google.com/sheets/api/quickstart/nodejs#step_1_turn_on_the 按Enable the Google Sheets API 啟用google sheets api
 2. 按 DOWNLOAD CLIENT CONFIGURATION
-3. 將下載下來的 credentials.json 複製到資料夾裡
-> node index.js
-4. 接下來terminal會顯示一串網址 點開這段網址 授權之後將畫面中的Code貼回Terminal 按Enter 應該會生成好 token.json
-5. 這個token半年之後會過期, 到時候只要再執行一次index.js就好
+3. 將下載下來的 credentials.json 複製到資料夾裡 接下來在terminal中執行
+4. > node index.js
+5. 接下來terminal會顯示一串網址 點開這段網址 授權之後將畫面中的Code貼回Terminal 按Enter 應該會生成好 token.json
+6. 這個token半年之後會過期, 到時候只要再執行一次index.js就好
 
 詳細請參考官方教學: https://developers.google.com/sheets/api/quickstart/nodejs
 
