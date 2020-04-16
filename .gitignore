@@ -3,7 +3,6 @@
 # Edit at https://www.gitignore.io/?templates=node
 
 # token
-auth.json
 credentials.json
 token.json
 
