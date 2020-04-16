@@ -13,7 +13,7 @@ var objlist = { "1": "一王", "2": "二王", "3": "三王", "4": "四王", "5":
 
 // google sheet id
 const ssidlist = [
-    '12yu-SXMr5R-GzQIQNUxz8P1hzLOAjKVDeLQvvq50AgI',  //將本行更新為你們公會的表單ID 記得放在引號裡面
+    '1B59MPDbQokXq3vkEG5oG2Ef8-JccN8eWsl9r6gTew6w',  //將本行更新為你們公會的表單ID 記得放在引號裡面
 ]
 
 const chlist = {

@@ -50,10 +50,10 @@
 
 ### - 連結google sheets
 - 本機器人連結的google sheets有固定格式如下檔:
-https://docs.google.com/spreadsheets/d/12yu-SXMr5R-GzQIQNUxz8P1hzLOAjKVDeLQvvq50AgI/
+https://docs.google.com/spreadsheets/d/1B59MPDbQokXq3vkEG5oG2Ef8-JccN8eWsl9r6gTew6w/
 - 按檔案 -> 建立副本 建立貴公會自己的傷害紀錄表
 並將權限調整為任何人都可以編輯(或至少要你啟用google sheets api的帳號可以編輯)
-- 建立完成後 網址的最後一段即為表單的ID 以範本為例 就是12yu-SXMr5R-GzQIQNUxz8P1hzLOAjKVDeLQvvq50AgI
+- 建立完成後 網址的最後一段即為表單的ID 以範本為例 就是1B59MPDbQokXq3vkEG5oG2Ef8-JccN8eWsl9r6gTew6w
 - 複製表單ID 貼到bot.js 第16行的ssidlist裡面
 ```js
 // google sheet id
