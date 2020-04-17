@@ -115,10 +115,18 @@ const chlist = {
 
 ### - 開始執行Bot
 
+> node bot.js
+- 直接用node執行的話可以直接在終端機看到一些錯誤訊息
+- 按crtl + c 停止
+- 確定ok之後建議用forever來跑 所以執行下面這段
+
 > forever start -w bot.js 
 - 使用forever來執行bot可以防止因網路連線不穩而使bot當機的情況發生
 - bot在執行開始時會讀取成員名單, 如果事後有對成員ID或名稱進行修改, 請在bot可以讀取到的頻道中裡面呼叫 !reload
 - 之後可以使用!help指令來取得相關功能說明
+
+> forever stopall
+- 要關掉時可以用這個
 
 ### - 開發者群組(其實只有一個人)
 如果有問題或想討論的, 可以到此群組
