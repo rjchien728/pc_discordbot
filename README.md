@@ -5,8 +5,8 @@
 ## 安裝
 
 1. 下載並安裝[node.js](https://nodejs.org/en/), 並確定有加到環境變數裡面
-2. > clone https://github.com/rjchien728/pcct_discordbot.git
-3. > cd pc_discordbot
+2. 下載本專案 並解壓縮 (或是用git直接clone)
+3. 利用terminal進到專案資料夾中
 4. > npm install
 5. > npm install forever -g
 6. 如果看不懂這一段, 可以google一下terminal, 學一下基本操作
