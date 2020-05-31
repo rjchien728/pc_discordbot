@@ -141,8 +141,8 @@ client.on('message', async message => {
                             throw new Error('錯誤的成員名稱!');
                         }
                         demage = parseInt(args[1]);
-                        if (isNaN(demage) || demage > 10000000) {
-                            message.reply('傷害數值錯誤或過高!');
+                        if (isNaN(demage)) {
+                            message.reply('傷害數值錯誤!');
                             return;
                         }
                         object = '';
